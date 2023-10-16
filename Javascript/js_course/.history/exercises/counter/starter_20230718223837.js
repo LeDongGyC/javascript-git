@@ -1,0 +1,1 @@
+const minusButton = document.querySelector(".counter-descrease");

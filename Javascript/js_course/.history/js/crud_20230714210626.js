@@ -1,0 +1,14 @@
+// // const h1 = document.createElement("div");
+// // const h2 = document.createElement("div")
+// h1.textContent = "Hello"
+// // h1 = "Hello";
+const body = document.body;
+// body.appendChild(h1)
+// h1.appendChild(h2)
+const card = document.createElement("div")
+card.classList-a("card")
+const img = document.createElement("img");
+img.setAttribute("src","img.com");
+img.classList.add("card-image");
+body.appendChild(card);
+card.appendChild(img)

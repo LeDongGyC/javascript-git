@@ -1,0 +1,52 @@
+.horizontal-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horizontal-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.horizontal-menu li {
+  margin-right: 20px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+/* CSS cho menu dạng hàng dọc */
+.vertical-menu {
+  display: none;
+  position: relative;
+  top: 50px;
+  right: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.vertical-menu ul {
+  list-style: none;
+}
+
+.vertical-menu li {
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+}
+
+/* CSS cho responsive khi width nhỏ hơn 768px */
+@media screen and (max-width: 768px) {
+  .horizontal-menu ul {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
